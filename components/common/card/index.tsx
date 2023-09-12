@@ -1,9 +1,14 @@
-import Image from 'next/image';
 import React from 'react';
 
-type Props = {};
+interface CardProps {
+  data: {
+    title: string;
+    desc: string;
+  };
+  index: number;
+}
 
-const Card = ({ data, index }: Props) => {
+const Card = ({ data, index }: CardProps) => {
   const { title, desc } = data;
 
   return (

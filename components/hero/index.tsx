@@ -1,16 +1,8 @@
-'use client';
-
 import React from 'react';
 import Arrow from '@/public/images/icon-arrow-down.svg';
 import Image from 'next/image';
 
-type Props = {};
-
-const Hero = (props: Props) => {
-  const scrollSpy = () => {
-    console.log('test');
-  };
-
+const Hero = () => {
   return (
     <div className='w-full h-[calc(100vh-56px)] md:h-[calc(100vh-67px)] overflow-hidden'>
       <div className='absolute top-0 left-0 w-full h-full -z-10 flex flex-col items-center justify-evenly bg-hero'>

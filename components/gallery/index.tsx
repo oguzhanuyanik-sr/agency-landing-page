@@ -2,9 +2,7 @@ import React from 'react';
 import { gallery } from '@/app/api/response.json';
 import Image from 'next/image';
 
-type Props = {};
-
-const Gallery = (props: Props) => {
+const Gallery = () => {
   return (
     <section className='flex flex-wrap md:flex-none'>
       {gallery.map(({ title, img }, index) => (

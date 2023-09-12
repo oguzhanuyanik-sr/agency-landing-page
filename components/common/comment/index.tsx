@@ -1,9 +1,16 @@
 import Image from 'next/image';
 import React from 'react';
 
-type Props = {};
+interface CommentProps {
+  data: {
+    title: string;
+    subtitle: string;
+    desc: string;
+    img: string;
+  };
+}
 
-const Comment = ({ data }: Props) => {
+const Comment = ({ data }: CommentProps) => {
   const { title, subtitle, desc, img } = data;
 
   return (

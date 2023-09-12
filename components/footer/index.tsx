@@ -4,9 +4,7 @@ import Image from 'next/image';
 import { navLinks, socialLinks } from '@/utils/constants';
 import Link from 'next/link';
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <footer className='bg-green-400 h-[350px]'>
       <div className='w-full flex justify-center pt-16 mb-10'>

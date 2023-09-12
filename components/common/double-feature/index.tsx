@@ -2,9 +2,20 @@ import React from 'react';
 import Button from '../button';
 import Image from 'next/image';
 
-type Props = {};
+interface DoubleFeatureProps {
+  data: {
+    title: string;
+    desc: string;
+    url: string;
+    img: {
+      desktop: string;
+      mobile: string;
+    };
+  };
+  index: number;
+}
 
-const DoubleFeature = ({ data, index }: Props) => {
+const DoubleFeature = ({ data, index }: DoubleFeatureProps) => {
   const { title, desc, url, img } = data;
   const isEven = index % 2 === 0;
 
@@ -45,7 +56,7 @@ const DoubleFeature = ({ data, index }: Props) => {
             <p className='text-grey-100 text-lg leading-[1] md:leading-[30px] font-semibold'>
               {desc}
             </p>
-            <Button url={url} color={'red'} />
+            <Button url={url} color='red' />
           </div>
         ) : (
           ''

@@ -2,9 +2,7 @@ import React from 'react';
 import DoubleFeature from '../common/double-feature';
 import { featureData } from '@/app/api/response.json';
 
-type Props = {};
-
-const Features = (props: Props) => {
+const Features = () => {
   return (
     <div>
       {featureData.map((item, index) => {
