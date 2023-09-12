@@ -1,2 +1,2 @@
 <h1 align="center"><a href="https://agency-ou.vercel.app/">Agency Landing Page - Live Demo</a></h2>
-<img alt="Agency Landing Page" src="https://raw.githubusercontent.com/oguzhanuyanik-sr/agency-landing-page/master/screenshot.png" />
+<img alt="Agency Landing Page" src="https://raw.githubusercontent.com/oguzhanuyanik-sr/agency-landing-page/master/screenshot2.png" />
