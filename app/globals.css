@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply flex justify-center;
+  }
+  body {
+    @apply font-barlow overflow-x-hidden px-6 max-w-[1920px] w-full;
+  }
+}
+
+@layer components {
+  @media (max-width: 768px) {
+    .triangle {
+      border-bottom: solid 24px #ffffff;
+      border-right: solid 24px #ffffff;
+      border-left: solid 24px transparent;
+      border-top: solid 24px transparent;
+    }
+  }
+}

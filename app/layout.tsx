@@ -1,3 +1,4 @@
+import Navbar from '@/components/navbar';
 import './globals.css';
 import type { Metadata } from 'next';
 import { Barlow, Fraunces } from 'next/font/google';
@@ -34,6 +35,7 @@ export default function RootLayout({
       className={`${barlowFontFamily.variable} ${frauncesFontFamily.variable}`}
     >
       <body>
+        <Navbar />
         <main>{children}</main>
       </body>
     </html>
