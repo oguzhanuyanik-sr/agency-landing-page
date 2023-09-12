@@ -1,12 +1,16 @@
+'use client';
+
 import React from 'react';
-import HeroMobile from '@/public/images/mobile/image-header.jpg';
-import HeroDesktop from '@/public/images/desktop/image-header.jpg';
 import Arrow from '@/public/images/icon-arrow-down.svg';
 import Image from 'next/image';
 
 type Props = {};
 
 const Hero = (props: Props) => {
+  const scrollSpy = () => {
+    console.log('test');
+  };
+
   return (
     <div className='w-full h-[calc(100vh-56px)] md:h-[calc(100vh-67px)] overflow-hidden'>
       <div className='absolute top-0 left-0 w-full h-full -z-10 flex flex-col items-center justify-evenly bg-hero'>
@@ -15,7 +19,7 @@ const Hero = (props: Props) => {
             WE ARE <br className='md:hidden' /> CREATIVES
           </h1>
         </div>
-        <div className='w-full flex justify-center mb-[80px] md:mb-[200px]'>
+        <div className='w-full flex justify-center mb-[80px] md:mb-[200px] cursor-pointer'>
           <Image src={Arrow} alt='arrow' height={107} width={30} sizes='100%' />
         </div>
       </div>

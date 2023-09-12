@@ -28,6 +28,7 @@ const config: Config = {
       'green-100': '#24554A',
       'green-200': '#2C7566',
       'green-300': '#458D7E',
+      'green-400': '#90D4C6',
     },
     fontFamily: {
       barlow: 'var(--font-barlow)',
