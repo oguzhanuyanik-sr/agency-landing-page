@@ -1,0 +1,92 @@
+{
+  "featureData": [
+    {
+      "title": "Transform your brand",
+      "desc": "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
+      "url": "/",
+      "img": {
+        "desktop": "/images/desktop/image-transform.jpg",
+        "mobile": "/images/mobile/image-transform.jpg"
+      }
+    },
+    {
+      "title": "Stand out to the right audience",
+      "desc": "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.",
+      "url": "/",
+      "img": {
+        "desktop": "/images/desktop/image-stand-out.jpg",
+        "mobile": "/images/mobile/image-stand-out.jpg"
+      }
+    }
+  ],
+  "doubleCard": [
+    {
+      "title": "Graphic Design",
+      "desc": "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.",
+      "url": "/",
+      "img": {
+        "desktop": "/images/desktop/image-graphic-design.jpg",
+        "mobile": "/images/mobile/image-graphic-design.jpg"
+      }
+    },
+    {
+      "title": "Photography",
+      "desc": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image.",
+      "url": "/",
+      "img": {
+        "desktop": "/images/desktop/image-photography.jpg",
+        "mobile": "/images/mobile/image-photography.jpg"
+      }
+    }
+  ],
+  "testimonials": [
+    {
+      "title": "Emily R.",
+      "subtitle": "Marketing Director",
+      "desc": "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
+      "img": "/images/image-emily.jpg"
+    },
+    {
+      "title": "Thomas S.",
+      "subtitle": "Chief Operating Officer",
+      "desc": "Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.",
+      "img": "/images/image-thomas.jpg"
+    },
+    {
+      "title": "Jennie F.",
+      "subtitle": "Business Owner",
+      "desc": "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!",
+      "img": "/images/image-jennie.jpg"
+    }
+  ],
+  "gallery": [
+    {
+      "title": "Milk",
+      "img": {
+        "desktop": "/images/desktop/image-gallery-milkbottles.jpg",
+        "mobile": "/images/mobile/image-gallery-milkbottles.jpg"
+      }
+    },
+    {
+      "title": "Orange",
+      "img": {
+        "desktop": "/images/desktop/image-gallery-orange.jpg",
+        "mobile": "/images/mobile/image-gallery-orange.jpg"
+      }
+    },
+    {
+      "title": "Ice Cream",
+      "img": {
+        "desktop": "/images/desktop/image-gallery-cone.jpg",
+        "mobile": "/images/mobile/image-gallery-cone.jpg"
+      }
+    },
+    {
+      "title": "Sugar",
+      "img": {
+        "desktop": "/images/desktop/image-gallery-sugarcubes.jpg",
+        "mobile": "/images/mobile/image-gallery-sugarcubes.jpg"
+      }
+    }
+  ]
+}

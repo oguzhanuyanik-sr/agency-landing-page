@@ -7,7 +7,7 @@
     @apply flex justify-center;
   }
   body {
-    @apply font-barlow overflow-x-hidden px-6 max-w-[1920px] w-full;
+    @apply font-barlow overflow-x-hidden max-w-[1920px] w-full h-full;
   }
 }
 
@@ -19,5 +19,26 @@
       border-left: solid 24px transparent;
       border-top: solid 24px transparent;
     }
+  }
+
+  .bg-hero {
+    background-image: url('../public/images/mobile/image-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  @media (min-width: 768px) {
+    .bg-hero {
+      background-image: url('../public/images/desktop/image-header.jpg');
+    }
+  }
+
+  .learn-button:hover .cool-underscore {
+    @apply opacity-100;
+  }
+
+  .cool-underscore {
+    @apply h-[10px] w-full rounded-[28px] absolute top-[15px] -z-10;
   }
 }

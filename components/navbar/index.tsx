@@ -13,7 +13,7 @@ const Navbar = (props: Props) => {
   const [mobileMenuStatus, setMobileMenuStatus] = useState(false);
 
   return (
-    <header className='flex justify-between pt-8 md:px-10'>
+    <header className='flex justify-between pt-8 px-6  md:px-10'>
       <div
         onClick={() => setMobileMenuStatus(!mobileMenuStatus)}
         className={`${
@@ -46,7 +46,7 @@ const Navbar = (props: Props) => {
             mobileMenuStatus ? 'block' : 'hidden'
           } md:block text-grey-100 md:text-white-100 text-xl md:text-lg font-semibold leading-[25px] max-h-[330px] max-w-[330px] md:max-h-full md:max-w-full w-full h-full fixed md:static top-[106px] flex flex-col items-center justify-center gap-8 bg-white-100 md:bg-[transparent] z-20 md:text-end`}
         >
-          <div className='absolute top-[-24px] right-0 triangle'></div>
+          <div className='absolute top-[-24px] right-0 triangle md:static'></div>
           {navLinks.map(({ title, url }, index) => (
             <Link
               key={title}
