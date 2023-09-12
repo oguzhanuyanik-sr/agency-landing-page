@@ -41,4 +41,30 @@
   .cool-underscore {
     @apply h-[10px] w-full rounded-[28px] absolute top-[15px] -z-10;
   }
+
+  .bg-cherry {
+    background-image: url('../public/images/mobile/image-graphic-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  @media (min-width: 768px) {
+    .bg-cherry {
+      background-image: url('../public/images/desktop/image-graphic-design.jpg');
+    }
+  }
+
+  .bg-orange {
+    background-image: url('../public/images/mobile/image-photography.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  @media (min-width: 768px) {
+    .bg-orange {
+      background-image: url('../public/images/desktop/image-photography.jpg');
+    }
+  }
 }

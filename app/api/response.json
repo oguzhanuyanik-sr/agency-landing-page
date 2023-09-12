@@ -23,20 +23,11 @@
     {
       "title": "Graphic Design",
       "desc": "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.",
-      "url": "/",
-      "img": {
-        "desktop": "/images/desktop/image-graphic-design.jpg",
-        "mobile": "/images/mobile/image-graphic-design.jpg"
-      }
+      "url": "/"
     },
     {
       "title": "Photography",
-      "desc": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image.",
-      "url": "/",
-      "img": {
-        "desktop": "/images/desktop/image-photography.jpg",
-        "mobile": "/images/mobile/image-photography.jpg"
-      }
+      "desc": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
     }
   ],
   "testimonials": [
